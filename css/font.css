@@ -42,6 +42,10 @@
   font-size: 30px;
 }
 
+.font-32 {
+  font-size: 32px;
+}
+
 .font-36 {
   font-size: 36px;
 }
@@ -53,6 +57,10 @@ h2,
 
 .font-56 {
   font-size: 56px;
+}
+
+.font-64 {
+  font-size: 64px;
 }
 
 
