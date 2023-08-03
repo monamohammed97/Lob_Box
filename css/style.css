@@ -133,12 +133,24 @@ header {
   height: 150px;
 }
 
+.navbar>.container-fluid {
+  z-index: 1111;
+}
+
+button:focus:not(:focus-visible) {
+  box-shadow: none;
+}
+
 .object-contain {
   object-fit: contain;
 }
 
 .object-cover {
   object-fit: cover;
+}
+
+.z-index-2 img {
+  border-radius: 0px 0px 100px 100px;
 }
 
 .navbar-collapse .inner-list {
@@ -151,7 +163,7 @@ header {
   padding: 11px;
 }
 
-.navbar-collapse .inner-list button {
+.navbar-collapse .inner-list button:first-child {
   margin-left: 16px;
 }
 
@@ -179,6 +191,7 @@ header {
   border: 0;
   transition: all 1s;
   border-radius: 12px;
+  min-width: fit-content;
 }
 
 .navbar-collapse .inner-list .btn:is(:focus, :hover) {
@@ -275,12 +288,22 @@ header {
   backdrop-filter: blur(20px);
   padding: 92px 65px;
   text-align: center;
+  display: flex;
+  align-items: center;
 }
 
 /* why section */
 .logo-section .w-300,
 .why .w-300 {
   width: 300px;
+}
+
+.number .card-number {
+  min-width: 180px
+}
+
+.why .card-choose {
+  min-width: 280px
 }
 
 .number .card-number,
@@ -317,12 +340,13 @@ header {
   margin-bottom: 24px;
   display: flex;
   justify-content: center;
+  position: relative;
 }
 
 .card-choose .image {
   width: 200px;
   position: absolute;
-  top: 0;
+  bottom: 0;
 }
 
 .card-choose:hover .inner {
@@ -354,11 +378,11 @@ header {
 
 .production .bg-img {
   height: 500px;
-  border-radius: 24px 24px 0px 0px;
+  border-radius: 24px;
 }
 
 .production .bg-img img {
-  border-radius: 24px 24px 0px 0px;
+  border-radius: 24px;
 }
 
 .production .text {
@@ -368,6 +392,7 @@ header {
   height: 100%;
   position: absolute;
   top: 0;
+  width: 100%;
 }
 
 .production .text h3 {
@@ -383,7 +408,7 @@ header {
   min-height: calc((100% - 24px)/2);
   padding: 24px;
   border-radius: 24px;
-  min-height: 238px;
+  /* min-height: 238px; */
   display: flex;
   flex-direction: column;
   justify-content: end;
@@ -598,6 +623,7 @@ hr {
 
 .accordion-item .accordion-button {
   box-shadow: none;
+  text-align: inherit;
 }
 
 .accordion-button {
@@ -636,6 +662,11 @@ form textarea {
   color: #9A9A9A;
   font-family: lamaMedium;
   padding: 10px 24px !important;
+}
+
+label,
+.form-control {
+  font-size: 14px !important;
 }
 
 form textarea {
@@ -742,9 +773,12 @@ footer hr {
   width: 48px;
   height: 48px;
   padding: 12px;
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: fixed;
   right: 123px;
+  transition: all 1s;
   bottom: 100px;
 }
 
@@ -753,5 +787,19 @@ footer hr {
 }
 
 .display-block {
+  display: flex;
+}
+
+.toTop:hover {
+  background-color: var(--blue-color);
+  transition: all 1s;
+}
+
+.toTop:hover .white {
   display: block;
+}
+
+.toTop .white,
+.toTop:hover .black {
+  display: none;
 }

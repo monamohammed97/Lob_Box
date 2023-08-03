@@ -11,11 +11,503 @@
   .w-655 {
     width: 655px;
   }
+
+  .py-96 {
+    padding: 67px 0;
+  }
+
+  .production .small-card h3 {
+    width: 90%;
+  }
+
+  .py-40 {
+    padding: 40px 0;
+  }
 }
 
-@media (max-width: 1399.98px) {}
+@media (max-width: 1599.98px) {
+  .container {
+    width: 80%;
+    min-width: 80%;
+  }
 
-@media (max-width: 1199.98px) {}
+  .hero-section div.mb-40 {
+    margin-bottom: 0;
+  }
+
+  .mb-40,
+  h1 {
+    margin-bottom: 32px;
+  }
+
+  h1,
+  .font-64 {
+    font-size: 55px;
+  }
+
+  h2,
+  .font-40 {
+    font-size: 35px;
+  }
+
+  .hero-section {
+    min-height: auto;
+  }
+
+  .container-gif {
+    height: 600px;
+  }
+
+  .font-56 {
+    font-size: 46px;
+  }
+
+  .title-box {
+    min-height: 280px;
+    padding: 50px 30px;
+  }
+
+  .font-24 {
+    font-size: 22px;
+  }
+
+  .py-120 {
+    padding: 80px 0;
+  }
+
+  .toTop {
+    right: 60px;
+  }
+
+  .btn {
+    height: 60px;
+  }
+
+  .card-choose .image {
+    width: 150px;
+  }
+
+  .font-18 {
+    font-size: 17px;
+  }
+
+  .border-image {
+    height: 90px;
+  }
+
+  .card-choose .inner {
+    width: 100%;
+    min-height: 280px;
+  }
+
+  .font-36 {
+    font-size: 36px;
+  }
+
+  .font-32 {
+    font-size: 28px;
+  }
+
+  .production .small-card h3 {
+    line-height: initial;
+    width: 72%;
+  }
+
+  .card-number .image {
+    height: 90px;
+    width: 90px;
+  }
+
+  .number .card-number {
+    min-height: 200px;
+  }
+
+  .number .card-number .inner {
+    min-height: 150px;
+  }
+
+  .card-number h3,
+  .card-number p {
+    line-height: 40px;
+  }
+
+  .card-number .font-64 {
+    font-size: 45px;
+  }
+
+  .logos-600,
+  .logos {
+    width: 50%;
+  }
+
+  .logo-section .w-300,
+  .why .w-300 {
+    width: 300px;
+    line-height: 40px;
+  }
+
+  .font-20 {
+    font-size: 19px;
+  }
+
+  .accordion-button::after {
+    width: 18px;
+    background-size: contain;
+  }
+
+  .w-655 {
+    width: 55%;
+  }
+
+  .w-460 {
+    width: 38%;
+  }
+
+  .box-input {
+    height: 65px;
+  }
+
+  .box-input button {
+    height: 55px;
+  }
+
+  .mb-64 {
+    margin-bottom: 54px;
+  }
+
+  footer hr {
+    margin: 25px 0;
+  }
+
+  footer.py-120 {
+    padding: 80px 0 50px 0;
+  }
+
+  .navbar-brand,
+  header {
+    height: 120px;
+  }
+
+  footer .logo-footer,
+  .logo {
+    height: 65px;
+  }
+}
+
+@media (max-width: 1399.98px) {
+  .font-16 {
+    font-size: 14px;
+  }
+
+  .font-18 {
+    font-size: 16px;
+  }
+
+  .navbar-collapse .inner-list .nav-item {
+    margin: 0 12px;
+  }
+
+  .navbar-collapse .inner-list {
+    min-width: 90%;
+    height: 60px;
+  }
+
+  .navbar-collapse .inner-list .btn {
+    height: 45px;
+  }
+
+  .font-16 {
+    font-size: 15px;
+  }
+
+  .font-18 {
+    font-size: 16px;
+  }
+
+  .navbar-collapse .inner-list button:first-child {
+    margin-left: 14px;
+  }
+
+  .navbar-brand {
+    width: 150px;
+    border-radius: 0px 0px 30px 30px;
+  }
+
+  .py-96 {
+    padding: 50px 0;
+  }
+
+  h1,
+  .font-64 {
+    font-size: 45px;
+  }
+
+  .px-56 {
+    padding: 16px 36px;
+  }
+
+  .container-gif {
+    height: 450px;
+  }
+
+  .font-24 {
+    font-size: 20px;
+  }
+
+  .font-56 {
+    font-size: 36px;
+  }
+
+  .title-box {
+    min-height: 80px;
+    padding: 50px 30px;
+  }
+
+  .hero-section .gradient {
+    top: 0;
+  }
+
+  h2,
+  .font-40 {
+    font-size: 32px;
+  }
+
+  .card-choose p {
+    min-height: 100px;
+  }
+
+  .card-choose .image {
+    width: 120px;
+  }
+
+  .btn {
+    height: 55px;
+  }
+
+  .why .card-choose {
+    min-height: 280px;
+  }
+
+  .py-120 {
+    padding: 70px 0;
+  }
+
+  .production .icon {
+    width: 56px;
+    height: 56px;
+  }
+
+  .production .small-card h3 {
+    width: 100%;
+  }
+
+  .font-32 {
+    font-size: 25px;
+  }
+
+  .production .small-card {
+    padding: 20px;
+  }
+
+  .production .bg-img {
+    height: 450px;
+  }
+
+  .font-36 {
+    font-size: 30px;
+  }
+
+  .w-460 {
+    width: 45%;
+  }
+
+  .w-655 {
+    width: 50%;
+  }
+
+  .img-icon {
+    width: 40px;
+    height: 40px;
+    padding: 6px;
+  }
+
+  .contact-section .w-655 .gap-24 {
+    gap: 10px;
+  }
+
+  footer .logo-footer,
+  .logo {
+    height: 55px;
+  }
+
+  .py-80 {
+    padding: 60px 0;
+  }
+
+  footer.py-120 {
+    padding: 70px 0 40px 0;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .navbar-brand {
+    width: 100px;
+  }
+
+  .production .text h3 {
+    line-height: inherit;
+  }
+
+  .navbar-brand,
+  header {
+    height: 100px;
+  }
+
+  h1,
+  .font-64 {
+    font-size: 35px;
+  }
+
+  h2,
+  .font-40 {
+    font-size: 30px;
+  }
+
+  .font-56 {
+    font-size: 28px;
+  }
+
+  .font-36 {
+    font-size: 26px;
+  }
+
+  .font-32 {
+    font-size: 22px;
+  }
+
+  .hero-section .font-24 {
+    font-size: 16px;
+  }
+
+  .container-gif {
+    height: 400px;
+  }
+
+  header .font-18 {
+    font-size: 12px;
+  }
+
+  .navbar-collapse .inner-list .nav-item {
+    margin: 0 10px;
+  }
+
+  header .font-16 {
+    font-size: 12px;
+  }
+
+  footer .logo-footer,
+  .logo {
+    padding: 8px;
+  }
+
+  .toTop {
+    right: 20px;
+    border-radius: 14px;
+    padding: 10px;
+    border-radius: 16px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .title-box {
+    padding: 40px;
+  }
+
+  .why .card-choose {
+    width: calc((100% - 24px)/2);
+  }
+
+  .card-choose p {
+    min-height: 80px;
+  }
+
+  .btn {
+    height: 50px;
+  }
+
+  .production>div>.custom-w50 {
+    width: 100%;
+  }
+
+  .production>div {
+    flex-direction: column;
+  }
+
+  .production .small-card {
+    min-height: 150px;
+  }
+
+  .production .bg-img {
+    height: 350px;
+  }
+
+  .py-120 {
+    padding: 60px 0;
+  }
+
+  footer.py-120 {
+    padding: 60px 0 40px 0;
+  }
+
+  .card-number .font-64 {
+    font-size: 40px;
+  }
+
+  .logos-600,
+  .logos {
+    width: 70%;
+    margin: auto;
+  }
+
+  .logo-section .w-350,
+  .logo-section .w-300 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 32px;
+  }
+
+  .font-20 {
+    font-size: 16px;
+  }
+
+  .font-16 {
+    font-size: 14px;
+  }
+
+  .faq-section .accordion-item {
+    margin-bottom: 24px;
+  }
+
+  .accordion-button::after {
+    width: 14px;
+  }
+
+  .contact-section .w-460,
+  .contact-section .w-655 {
+    width: 100%;
+  }
+
+  .box-input {
+    height: 50px;
+    width: 360px;
+  }
+
+  .box-input button {
+    height: 40px;
+    min-width: fit-content;
+    padding: 0 20px;
+  }
+}
 
 @media (max-width: 991.98px) {
   .navbar-collapse .inner-list {
@@ -23,8 +515,298 @@
     flex-direction: column;
     align-items: flex-start !important;
   }
+
+  header .font-16 {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+
+  .navbar-brand {
+    width: 120px;
+  }
+
+  .custom-w50 {
+    width: 100%;
+  }
+
+  .cw-90 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .title-box {
+    justify-content: center;
+    padding: 20px;
+  }
+
+  h2,
+  .font-40 {
+    font-size: 28px;
+  }
+
+  .logo-section .w-300,
+  .why .w-300 {
+    width: 100%;
+  }
+
+  .container-gif {
+    height: 350px;
+  }
+
+  .font-56 {
+    font-size: 24px;
+  }
+
+  .card-choose p {
+    min-height: 125px;
+  }
+
+  .why .card-choose {
+    margin-bottom: 0;
+  }
+
+  .production .icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 16px;
+    padding: 10px;
+  }
+
+  .card-number .font-64 {
+    font-size: 35px;
+    line-height: 20px;
+  }
+
+  .logos-600,
+  .logos {
+    gap: 80px;
+  }
+
+  .contact-section h2 {
+    text-align: center;
+  }
+
+  .card-number .image {
+    height: 80px;
+    width: 80px;
+  }
+
+  .number .card-number {
+    min-height: 170px;
+  }
+
+  .number .card-number .inner {
+    min-height: 127px;
+    padding: 16px;
+  }
+
+  .py-120 {
+    padding: 50px 0;
+  }
+
+  footer .gap-40 {
+    gap: 10px 30px;
+  }
+
+
 }
 
-@media (max-width: 767.98px) {}
+@media (max-width: 767.98px) {
+  .production .bg-img {
+    height: 300px;
+  }
 
-@media (max-width: 575.98px) {}
+  .container-gif {
+    height: 300px;
+  }
+
+  .font-56 {
+    font-size: 20px;
+  }
+
+  .font-36 {
+    font-size: 22px;
+  }
+
+  .font-32 {
+    font-size: 20px;
+  }
+
+  footer .logo-footer {
+    width: 100%;
+    height: 70px;
+    margin-bottom: 1rem;
+  }
+
+  h2,
+  .font-40 {
+    font-size: 24px;
+  }
+
+  .why .card-choose {
+    width: 70%;
+    margin: auto;
+  }
+
+  .card-choose p,
+  .why .card-choose,
+  .card-choose .inner {
+    min-height: auto;
+  }
+
+  .card-choose .image {
+    bottom: 10px;
+  }
+
+  .number .card-number {
+    width: calc((100% - 24px)/2);
+    margin-bottom: 0;
+  }
+
+  .logos-600,
+  .logos {
+    width: 80%;
+  }
+
+  .accordion-item .font-20 {
+    font-size: 14px;
+  }
+
+  .accordion-item .font-16 {
+    font-size: 12px;
+  }
+
+  .py-80 {
+    padding: 40px 0;
+  }
+
+  .box-input {
+    width: calc(100% - 150px);
+  }
+}
+
+@media (max-width: 575.98px) {
+
+  .px-47,
+  .px-56 {
+    padding: 16px 20px;
+  }
+
+  h1,
+  .font-64 {
+    font-size: 30px;
+  }
+
+  h2,
+  .font-40 {
+    font-size: 22px;
+  }
+
+  .font-36 {
+    font-size: 20px;
+  }
+
+  .font-24 {
+    font-size: 18px;
+  }
+
+  .font-18 {
+    font-size: 14px;
+  }
+
+  .container-gif {
+    height: 250px;
+  }
+
+  .production .text {
+    padding: 20px;
+  }
+
+  .hero-section .py-40 {
+    padding: 0 0 40px 0;
+  }
+
+  .number .card-number,
+  .why .card-choose {
+    width: 100%;
+  }
+
+  .btn {
+    min-width: 150px;
+  }
+
+  .production .bg-img {
+    height: 250px;
+  }
+
+  .card-number .font-64 {
+    font-size: 30px;
+  }
+
+  .logos-600,
+  .logos {
+    width: 85%;
+  }
+
+  .mb-40,
+  h1 {
+    margin-bottom: 24px;
+  }
+
+  form input,
+  form input:is(:focus) {
+    height: 50px;
+  }
+
+  .contact-section form label {
+    padding: 14px 24px;
+  }
+
+  form textarea {
+    margin-bottom: 32px;
+  }
+
+  .box-input {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .container {
+    width: 90%;
+    min-width: 90%;
+  }
+
+  footer .mb-64 {
+    margin-bottom: 44px;
+  }
+
+  .social {
+    width: 100%;
+    justify-content: center;
+  }
+
+  footer.py-120 {
+    padding: 40px 0;
+  }
+
+  .copy-right {
+    font-size: 12px;
+  }
+
+  .logos-600,
+  .logos {
+    width: 80%;
+    gap: 10px 40px;
+    height: auto;
+    flex-wrap: wrap;
+  }
+
+  .logos-600>div,
+  .logos>div {
+    max-width: 100px;
+  }
+}

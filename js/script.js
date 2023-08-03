@@ -24,7 +24,7 @@ window.onscroll = function () {
 };
 
 function scrollFunction() {  
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+  if (document.body.scrollTop > 700 || document.documentElement.scrollTop > 700) {
     mybutton.classList.add("display-block");
     mybutton.classList.remove("display-none");
   } else {
