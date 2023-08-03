@@ -809,4 +809,10 @@
   .logos>div {
     max-width: 100px;
   }
+
+  .hero-section,
+  .z-index-2 img,
+  .hero-section .yellow-section {
+    border-radius: 0px 0px 50px 50px;
+  }
 }
