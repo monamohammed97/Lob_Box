@@ -510,6 +510,10 @@
 }
 
 @media (max-width: 991.98px) {
+  .hero-section:has(.mobile) .content-section {
+    padding-top: 100px;
+  }
+
   header.mobile {
     position: absolute;
     width: 100%;
