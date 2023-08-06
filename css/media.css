@@ -516,10 +516,10 @@
     left: 0;
   }
 
-  header.mobile .navbar-collapse .inner-list {
+  .navbar-collapse .inner-list {
     padding-top: 0;
     background: transparent;
-    backdrop-filter: blur(0);
+    backdrop-filter: none;
     border: 0;
   }
 
