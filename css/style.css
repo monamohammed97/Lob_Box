@@ -710,6 +710,10 @@ input::placeholder {
   padding: 12px;
 }
 
+.contact-section {
+  background-color: #FEFBF2;
+}
+
 .contact-section a {
   color: #939393;
 }
