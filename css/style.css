@@ -69,8 +69,8 @@ a {
 }
 
 .navbar-toggler {
-  border: 0;
-  padding: 0;
+  padding: 5px;
+  border: 1px solid #000;
 }
 
 .navbar-toggler .navbar-toggler-icon {
@@ -708,6 +708,9 @@ input::placeholder {
   height: 48px;
   border-radius: 16px;
   padding: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .contact-section {
