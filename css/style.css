@@ -828,3 +828,12 @@ footer hr {
 .toTop:hover .black {
   display: none;
 }
+
+.social .link-social:hover .withoutHover,
+.social .link-social .withHover {
+  display: none;
+}
+
+.social .link-social:hover .withHover {
+  display: block;
+}
