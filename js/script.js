@@ -23,8 +23,11 @@ window.onscroll = function () {
   scrollFunction();
 };
 
-function scrollFunction() {  
-  if (document.body.scrollTop > 700 || document.documentElement.scrollTop > 700) {
+function scrollFunction() {
+  if (
+    document.body.scrollTop > 700 ||
+    document.documentElement.scrollTop > 700
+  ) {
     mybutton.classList.add("display-block");
     mybutton.classList.remove("display-none");
   } else {
@@ -38,3 +41,15 @@ function topFunction() {
   document.documentElement.scrollTop = 0;
 }
 
+const button = document.querySelector(".navbar-toggler");
+
+// Function to check if the button contains the "collapsed" class
+function checkButtonState() {
+  if (button.classList.contains("collapsed")) {
+    document.querySelector("header").classList.remove("mobile");
+  } else {
+    document.querySelector("header").classList.add("mobile");
+  }
+}
+
+button.addEventListener("click", checkButtonState);
