@@ -30,11 +30,18 @@ function scrollFunction() {
     document.documentElement.scrollTop > 700
   ) {
     mybutton.classList.add("display-block");
-    document.querySelector('header').classList.add("fiexd-header");
     mybutton.classList.remove("display-none");
   } else {
     mybutton.classList.remove("display-block");
     mybutton.classList.add("display-none");
+
+  }
+  if (
+    document.body.scrollTop > 20 ||
+    document.documentElement.scrollTop > 20
+  ) {
+    document.querySelector('header').classList.add("fiexd-header");
+  } else {
     document.querySelector('header').classList.remove("fiexd-header");
 
   }

@@ -186,7 +186,7 @@ button:focus:not(:focus-visible) {
   border: 0;
 }
 
-.fiexd-header:has(.collapsed) .navbar-toggler-icon {
+header:not(.mobile) .navbar-toggler-icon {
   margin-left: 20px;
 }
 
