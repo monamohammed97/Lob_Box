@@ -30,6 +30,50 @@
 
 <body>
   <main>
+    <div class="container container-header">
+      <!-- header -->
+      <header class="p-0">
+        <nav class="navbar navbar-expand-lg navbar-dark p-0 h-100">
+          <div class="container-fluid">
+            <a class="navbar-brand p-0 m-0" href="#">
+              <div class="logo">
+                <img src="./images/logo.svg" alt="logo" class="object-contain">
+              </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+              <div class="inner-list d-flex align-items-center justify-content-between">
+                <ul class="navbar-nav mb-2 mb-lg-0 mx-0">
+                  <li class="nav-item">
+                    <a class="nav-link font-16 active" aria-current="page" href="#">الرئيسية </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link font-16" aria-current="page" href="#about">عن لوبوكس</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link font-16" href="#whyChoose">لماذا تختارنا ؟</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link font-16" href="#numbers">في أرقام</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link font-16" href="#contactUs">تواصل معنا</a>
+                  </li>
+                </ul>
+                <div class="d-flex g-1">
+                  <button class="btn font-18 btn-transparent">EN</button>
+                  <button class="btn font-18 btn-transparent">تسجيل الدخول</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+    </div>
     <!-- hero section -->
     <section class="hero-section position-relative" id="heroSection">
       <div class="position-absolute w-100 h-100 z-index-2">
@@ -39,52 +83,9 @@
           <div class="gradient"></div>
         </div>
       </div>
-      <div class="container container-header">
-        <!-- header -->
-        <header class="p-0">
-          <nav class="navbar navbar-expand-lg navbar-dark p-0 h-100">
-            <div class="container-fluid">
-              <a class="navbar-brand p-0 m-0" href="#">
-                <div class="logo">
-                  <img src="./images/logo.svg" alt="logo" class="object-contain">
-                </div>
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                <div class="inner-list d-flex align-items-center justify-content-between">
-                  <ul class="navbar-nav mb-2 mb-lg-0 mx-0">
-                    <li class="nav-item">
-                      <a class="nav-link font-16 active" aria-current="page" href="#">عن لوبوكس</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link font-16">ماهو لوبوكس ؟</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link font-16">لماذا تختارنا ؟</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link font-16">في أرقام</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link font-16" href="#">تواصل معنا</a>
-                    </li>
-                  </ul>
-                  <div class="d-flex g-1">
-                    <button class="btn font-18 btn-transparent">EN</button>
-                    <button class="btn font-18 btn-transparent">تسجيل الدخول</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </nav>
-        </header>
-      </div>
+
       <!-- content section -->
-      <div class="container content-section">
+      <div class="container content-section" id="about">
         <div data-aos="fade-up" data-aos-duration="1000"
           class="d-flex justify-content-between flex-wrap gap-24 align-items-center py-96 mb-40">
           <div class="custom-w50">
@@ -121,7 +122,7 @@
     <!-- end hero section -->
 
     <!-- why section -->
-    <section class="container why py-120">
+    <section class="container why py-120" id="whyChoose">
       <h2 class="font-48 w-300 text-center mx-auto mb-40" data-aos="fade-up" data-aos-duration="1000">لماذا تختار نظام
         لو بوكس ؟</h2>
       <div class="d-flex flex-wrap justify-content-between gap-24 mb-24">
@@ -263,9 +264,10 @@
     <!-- end production section -->
 
     <!-- number section -->
-    <section class="container number py-120">
-      <h2 class="font-48 w-300 text-center mx-auto mb-40" data-aos="fade-up" data-aos-duration="1000">لماذا تختار نظام
-        لو بوكس ؟</h2>
+    <section class="container number py-120" id="numbers">
+      <h2 class="font-48 w-300 text-center mx-auto mb-40" data-aos="fade-up" data-aos-duration="1000">
+        لوبوكس في أرقام
+      </h2>
       <div class="d-flex flex-wrap justify-content-between gap-24">
         <div class="card-number" data-aos="fade-up" data-aos-duration="1000">
           <div class="inner">
@@ -440,7 +442,7 @@
     <!-- end faq section -->
 
     <!-- contact section -->
-    <section class="contact-section py-80">
+    <section class="contact-section py-80" id="contactUs">
       <div class="container d-flex flex-wrap justify-content-between gap-24">
         <div class="w-655">
           <h2 class="font-56 mb-40" data-aos="fade-up" data-aos-duration="1000">

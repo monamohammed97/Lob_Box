@@ -69,8 +69,8 @@ a {
 }
 
 .navbar-toggler {
-  padding: 5px;
-  border: 1px solid #000;
+  padding: 0;
+  border: 0;
 }
 
 .navbar-toggler .navbar-toggler-icon {
@@ -180,6 +180,25 @@ button:focus:not(:focus-visible) {
   padding: 11px;
 }
 
+.fiexd-header .navbar-collapse .inner-list {
+  background: transparent;
+  backdrop-filter: blur(0);
+  border: 0;
+}
+
+.fiexd-header:has(.collapsed) .navbar-toggler-icon {
+  margin-left: 20px;
+}
+
+.mobile:not(:has(.collapsed)) .logo {
+  height: 72px;
+}
+
+.mobile:not(:has(.collapsed)) .navbar-brand,
+.mobile:not(:has(.collapsed)) {
+  height: 100px;
+}
+
 .navbar-collapse .inner-list button:first-child {
   margin-left: 16px;
 }
@@ -265,6 +284,34 @@ button:focus:not(:focus-visible) {
 
 .container-header {
   z-index: 1111;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.fiexd-header {
+  border-radius: 16px;
+  border: 2px solid rgba(243, 243, 243, 0.80);
+  background: rgba(243, 243, 243, 0.50);
+  backdrop-filter: blur(20px);
+  height: 72px;
+}
+
+.fiexd-header:not(:has(.collapsed)) .navbar-collapse .inner-list {
+  background: transparent;
+  border: 0;
+  backdrop-filter: blur(0);
+}
+
+.fiexd-header .logo,
+.fiexd-header .navbar-brand {
+  height: 48px;
+  background-color: transparent;
+}
+
+#about {
+  padding-top: 120px;
 }
 
 .btn-white {

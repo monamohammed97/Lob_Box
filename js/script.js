@@ -23,16 +23,20 @@ window.onscroll = function () {
   scrollFunction();
 };
 
+
 function scrollFunction() {
   if (
     document.body.scrollTop > 700 ||
     document.documentElement.scrollTop > 700
   ) {
     mybutton.classList.add("display-block");
+    document.querySelector('header').classList.add("fiexd-header");
     mybutton.classList.remove("display-none");
   } else {
     mybutton.classList.remove("display-block");
     mybutton.classList.add("display-none");
+    document.querySelector('header').classList.remove("fiexd-header");
+
   }
 }
 
@@ -50,8 +54,39 @@ function checkButtonState() {
     document.querySelector("#navbarSupportedContent").classList.add("d-none");
   } else {
     document.querySelector("header").classList.add("mobile");
-    document.querySelector("#navbarSupportedContent").classList.remove("d-none");
+    document
+      .querySelector("#navbarSupportedContent")
+      .classList.remove("d-none");
   }
 }
 
 button.addEventListener("click", checkButtonState);
+
+var navLinks = document.querySelectorAll(".navbar-nav a");
+
+// Loop through each navigation link and add a click event listener
+navLinks.forEach(function (link) {
+  link.addEventListener("click", function (e) {
+    e.preventDefault(); 
+    var target = link.getAttribute("href");
+    navLinks.forEach(function (navLink) {
+      navLink.classList.remove("active");
+    });
+
+    link.classList.add("active");
+
+    if (target !== "#") {
+      var targetElement = document.querySelector(target);
+      if (targetElement) {
+        targetElement.scrollIntoView({
+          behavior: "smooth"
+        });
+      }
+    } else {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+      });
+    }
+  });
+});
