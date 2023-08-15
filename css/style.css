@@ -221,8 +221,23 @@ header:not(.mobile) .navbar-toggler-icon {
   height: 100px;
 }
 
-.navbar-collapse .inner-list button:first-child {
+[dir='rtl'] .navbar-collapse .inner-list button:first-child {
   margin-left: 16px;
+}
+
+[dir='ltr'] .navbar-collapse .inner-list button:first-child {
+  margin-right: 16px;
+}
+
+[dir='ltr'] .fa-arrow-left-long {
+  transform: rotate(180deg);
+  margin-right: 0 !important;
+  margin-left: 0.5rem;
+}
+
+[dir='ltr'] .options label {
+  margin-right: 0 !important;
+  margin-left: 0.5rem;
 }
 
 .navbar-collapse .inner-list a.btn {
@@ -1145,6 +1160,7 @@ section.form textarea.form-control {
   color: var(--white);
   background: #12B76A;
 }
+
 .btn-error,
 .btn-error:is(:focus, :hover) {
   color: var(--white);
