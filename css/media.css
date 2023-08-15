@@ -26,6 +26,10 @@
 }
 
 @media (max-width: 1599.98px) {
+  section.form textarea.form-control {
+    margin-bottom: 60px;
+  }
+
   .container {
     width: 80%;
     min-width: 80%;
@@ -507,9 +511,35 @@
     min-width: fit-content;
     padding: 0 20px;
   }
+
+  .verify-section {
+    margin: 160px auto 100px;
+  }
 }
 
 @media (max-width: 991.98px) {
+  .w-558 {
+    width: 90%;
+  }
+
+  section.form textarea.form-control {
+    height: 200px;
+    margin-bottom: 50px;
+  }
+
+  button.w-460 {
+    width: 100%;
+  }
+
+  .verify-section h2,
+  .form-section h1 {
+    line-height: 30px;
+  }
+
+  section.form .gap-24 {
+    gap: 0;
+  }
+
   .hero-section:has(.mobile) .content-section {
     padding-top: 100px;
   }
@@ -645,6 +675,31 @@
 }
 
 @media (max-width: 767.98px) {
+  .modal.show .modal-dialog {
+    max-width: 80%;
+  }
+
+  .modal-content {
+    width: 100%;
+    height: auto;
+  }
+
+  .btn-action {
+    width: 55% !important;
+    min-width: 55% !important;
+  }
+
+  .btn-cancel {
+    width: 40% !important;
+    min-width: 40% !important;
+  }
+
+  .modal-footer {
+    margin-bottom: 20px;
+    gap: 0;
+    justify-content: space-between;
+  }
+
   .production .bg-img {
     height: 300px;
   }
@@ -719,8 +774,56 @@
 }
 
 @media (max-width: 575.98px) {
+  .modal.show .modal-dialog {
+    max-width: 90%;
+  }
+
   .production {
     padding: 120px 0;
+  }
+
+  .verify-section {
+    margin: 120px auto 60px;
+  }
+
+  .verification {
+    width: 90%;
+    height: 200px;
+  }
+
+  .w-360 {
+    width: 90%;
+  }
+
+  .verify-section .text,
+  .verify-section {
+    min-height: 400px;
+  }
+
+  .form-section {
+    margin-top: 100px;
+  }
+
+  .form-check-input:focus,
+  .form-check-input,
+  .form-check-input:checked[type=radio],
+  .form-check-input:checked[type=checkbox] {
+    width: 20px !important;
+    height: 20px !important;
+  }
+
+  label,
+  .form-control,
+  .form-select {
+    font-size: 12px !important;
+  }
+
+  .options {
+    justify-content: flex-start;
+  }
+
+  section.form .form-select {
+    height: 50px;
   }
 
   header.mobile .navbar>.container-fluid {

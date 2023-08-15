@@ -1,0 +1,107 @@
+@media (max-width: 639.98px) {
+  .email-template {
+    width: 100%;
+  }
+
+  .box-white {
+    width: 100%;
+    min-height: 350px;
+    height: auto;
+    padding: 40px;
+  }
+
+  .content {
+    padding: 60px 40px;
+  }
+
+  .activate-img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .letter h4,
+  .letter h3,
+  h2 {
+    font-size: 20px;
+    margin-bottom: 24px;
+  }
+
+  .btn-send {
+    height: 50px;
+    font-size: 16px;
+  }
+
+  .paragraph {
+    margin-bottom: 30px;
+  }
+
+  .text-p {
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+
+  .pb-80 {
+    padding-bottom: 60px !important;
+  }
+
+  .pt-80 {
+    padding-top: 60px !important;
+  }
+
+  .text-image p {
+    width: 70%;
+    font-size: 24px;
+    line-height: 30px;
+  }
+}
+
+@media (max-width: 399.98px) {
+  .box-white {
+    padding: 32px 24px;
+  }
+
+  p {
+    line-height: 20px;
+  }
+
+  .activate-img {
+    width: 140px;
+    height: 140px;
+    margin-bottom: 24px;
+  }
+
+  .content {
+    padding: 60px 20px;
+  }
+
+  h2 {
+    margin-bottom: 20px;
+  }
+
+  .btn-send,
+  .paragraph {
+    margin-bottom: 24px;
+  }
+
+  .btn-send {
+    height: 50px;
+    font-size: 16px;
+  }
+
+  .social {
+    margin: 32px auto 20px;
+  }
+
+  .letter .image {
+    height: 220px;
+  }
+
+  .letter h4 {
+    font-size: 18px;
+  }
+
+  .text-image p {
+    width: 95%;
+    font-size: 22px;
+  }
+}
